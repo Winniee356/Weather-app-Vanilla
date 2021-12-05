@@ -15,9 +15,57 @@
   </head>
   <body>
     <div class="container">
-      <h1>Weather App</h1>
-      <a href="" class="btn btn-primary">Click</a>
-    </div>
+      <div class="weather-app"> 
+        <div class="weather-wrapper">
+           <form id="city-form" class="mb-3">
+            <div class="row">
+              <div class="col-8">
+                <input
+                  type="text"
+                  id="city-input"
+                  placeholder="Type a city... "
+                  class="form-control me-3"
+                />
+              </div>
+              <div class="col-4">
+                <input
+                  type="submit"
+                  value="Search"
+                  button
+                  type="button"
+                  class="btn btn-success"
+                />
+              </div>
+            </div>
+          </form>
+          <h1>
+            <span id="city"> Amsterdam</span>
+          </h1>
+          <h2>
+            Last updated: Friday 10:00
+            <span id="current-date"></span>
+            <br />
+            <span id="temp-description"> </span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="clearfix weather-temperature">
+              <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" id="icon" alt="" class="float-left" />
+              <div class="float-left">
+                <strong id="temperature"></strong>
+                <a href="#" class="celcius-temp">12°C </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span>km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     <script src="src/app.js"></script>
   </body>
 </html>
