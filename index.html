@@ -11,7 +11,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -20,12 +20,12 @@
     <title>Weather App</title>
   </head>
   <body>
-    <div class="container">
-      <div class="weather-app"> 
+    <div class="container" style="max-width: 45rem">
+      <div class="weather-app">
         <div class="weather-wrapper">
-           <form id="city-form" class="mb-3">
+          <form id="city-form" class="mb-3">
             <div class="row">
-              <div class="col-8">
+              <div class="col-6">
                 <input
                   type="text"
                   id="city-input"
@@ -39,7 +39,7 @@
                   value="Search"
                   button
                   type="button"
-                  class="btn btn-primary"
+                  class="btn btn-warning"
                 />
               </div>
             </div>
@@ -47,31 +47,37 @@
           <h1>
             <span id="city"> Amsterdam</span>
           </h1>
-          <h2>
-            Last updated: Friday 10:00
-            <span id="current-date"></span>
-            <br />
-            <span id="temp-description"> </span>
-          </h2>
-        </div>
-        <div class="row">
-          <div class="col-8">
-            <div class="clearfix weather-temperature">
-              <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" id="icon" alt="" class="float-left" />
-              <div class="float-left">
-                <strong id="temperature"></strong>
-                <a href="#" class="celcius-temp">12°C </a>
-              </div>
+        <h2 style="font-size: 14px;">
+          Last updated: Friday 10:00
+          <span id="current-date"></span>
+          <br />
+          <span id="temp-description"> Sunny </span>
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <div class="clearfix weather-temperature">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              id="icon"
+              alt=""
+              class="float-left"
+            />
+            <div class="float-left">
+              <strong id="temperature">12</strong>
+              <a href="#" class="celcius-temp">°C | </a> 
+              <a href="#" class="fahrenheit-temp">°F </a>
             </div>
           </div>
-          <div class="col-4">
-            <ul>
-              <li>Humidity: <span id="humidity"></span>%</li>
-              <li>Wind: <span id="wind"></span>km/h</li>
-            </ul>
-          </div>
+        </div>
+        <div class="col-4">
+          <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span>km/h</li>
+          </ul>
         </div>
       </div>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
