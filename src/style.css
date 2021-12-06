@@ -72,3 +72,20 @@ li:first-letter {
   text-decoration: none;
   color: #f5c6aa;
 }
+
+.footer {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #fdc2bc;
+}
+
+a {
+  color: #f5c6aa;
+}
+
+a.hover {
+  color: #ff965e;
+}
