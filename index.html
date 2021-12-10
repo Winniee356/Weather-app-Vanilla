@@ -21,7 +21,7 @@
     <title>Weather App</title>
   </head>
   <body>
-    <div class="container" style="max-width: 45rem">
+    <div class="container" style="max-width: 40rem">
       <div class="weather-app">
         <div class="weather-wrapper">
           <form id="city-form" class="mb-3">
@@ -49,12 +49,6 @@
           <h1>
             <span id="city"> Amsterdam</span>
           </h1>
-          <h2 style="font-size: 14px">
-            Last updated:
-            <span id="current-date"></span>
-            <br />
-            <span id="temp-description"> </span>
-          </h2>
         </div>
         <div class="row">
           <div class="col-8">
@@ -68,12 +62,18 @@
             </div>
           </div>
           <div class="col-4">
+            <h2 style="font-size: 14px">
+              <span id="current-date"></span>
+              <br />
+              <span id="temp-description"> </span>
+            </h2>
             <ul>
               <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span>km/h</li>
             </ul>
           </div>
         </div>
+        <br />
         <div class="weather-forecast" id="forecast"></div>
         <br />
         <div class="footer">

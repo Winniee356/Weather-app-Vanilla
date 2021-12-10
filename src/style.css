@@ -8,6 +8,7 @@ h1 {
   font-size: 24px;
   line-height: 29px;
   color: #f59f95;
+  text-align: center;
 }
 
 h2 {
@@ -15,6 +16,7 @@ h2 {
   font-weight: 200;
   line-height: 20px;
   color: #f7ceaa;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -46,7 +48,7 @@ a.hover {
 
 .weather-wrapper {
   max-width: 600px;
-  margin: 20px;
+  margin: 40px;
 }
 .weather-app {
   background-color: #fff9f4;
@@ -98,7 +100,7 @@ a.hover {
 
 .weather-forecast {
   font-size: 14px;
-  font-weight: 500px;
+  font-weight: 300px;
   margin-top: 20px;
   text-align: center;
 }
