@@ -1,6 +1,5 @@
 body {
   font-family: "Poppins";
-  color: #f5c6aa;
 }
 
 h1 {
@@ -51,16 +50,17 @@ a.hover {
   margin: 40px;
 }
 .weather-app {
-  background-color: #fff9f4;
   margin: 50px auto;
   padding: 50px;
-  border: 1px solid white;
+  border: 1px solid transparent;
   border-radius: 10px;
 }
 
 .container {
-  background-image: url(img/boardingpass.jpg);
+  background-image: url(img/BPpass.jpg);
   background-repeat: no-repeat;
+  background-size: 1400px;
+  background-position: center;
 }
 
 .float-left {
@@ -128,9 +128,9 @@ a.hover {
 
 .footer {
   margin: 0 auto;
-  margin-top: 20px;
-  font-size: 10px;
-  text-decoration: none;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: bolder;
   text-align: center;
   color: #fdc2bc;
 }
