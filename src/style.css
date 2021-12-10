@@ -58,6 +58,11 @@ a.hover {
   border-radius: 10px;
 }
 
+.container {
+  background-image: url(img/boardingpass.jpg);
+  background-repeat: no-repeat;
+}
+
 .float-left {
   float: left;
 }
@@ -100,14 +105,16 @@ a.hover {
 
 .weather-forecast {
   font-size: 14px;
-  font-weight: 300px;
-  margin-top: 20px;
+  font-weight: 500px;
+  margin: 20px;
   text-align: center;
+  color: #f59f95;
 }
 
 .weather-forecast-date {
   font-size: 14px;
   text-align: center;
+  font-weight: bolder;
 }
 
 .weather-forecast-temperatures {
