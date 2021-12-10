@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <link
       rel="stylesheet"
@@ -49,37 +49,40 @@
           <h1>
             <span id="city"> Amsterdam</span>
           </h1>
-        <h2 style="font-size: 14px;">
-          Last updated: 
-          <span id="current-date"></span>
-          <br />
-          <span id="temp-description"> </span>
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-8">
-          <div class="clearfix weather-temperature">
-            <img
-              src=""
-              id="icon"
-              alt=""
-              class="float-left"
-            />
-            <div class="float-left">
-              <strong id="temperature"></strong>
-              <a href="#" class="celcius-temp" class="active">°C | </a> 
-              <a href="#" class="fahrenheit-temp">°F </a>
+          <h2 style="font-size: 14px">
+            Last updated:
+            <span id="current-date"></span>
+            <br />
+            <span id="temp-description"> </span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="clearfix weather-temperature">
+              <img src="" id="icon" alt="" class="float-left" />
+              <div class="float-left">
+                <strong id="temperature"></strong>
+                <a href="#" class="celcius-temp" class="active">°C | </a>
+                <a href="#" class="fahrenheit-temp">°F </a>
+              </div>
             </div>
           </div>
+          <div class="col-4">
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span>km/h</li>
+            </ul>
+          </div>
         </div>
-        <div class="col-4">
-          <ul>
-            <li>Humidity: <span id="humidity"></span>%</li>
-            <li>Wind: <span id="wind"></span>km/h</li>
-          </ul>
-        </div>
+        <div class="weather-forecast" id="forecast"></div>
+        <br />
         <div class="footer">
-<a href="https://github.com/Winniee356/Weather-app-Vanilla" style="color: #f5c6aa;">Open source code </a> by Winnie Lam
+          <a
+            href="https://github.com/Winniee356/Weather-app-Vanilla"
+            style="color: #f5c6aa"
+            >Open source code
+          </a>
+          by Winnie Lam
         </div>
       </div>
     </div>
