@@ -6,7 +6,7 @@ h1 {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: #f59f95;
+  color: #f38e82;
   text-align: center;
 }
 
@@ -14,7 +14,7 @@ h2 {
   font-size: 14px;
   font-weight: 200;
   line-height: 20px;
-  color: #f7ceaa;
+  color: #ff965e;
   margin-bottom: 20px;
 }
 
@@ -30,7 +30,7 @@ li {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  color: #f7ceaa;
+  color: #ff965e;
 }
 
 li:first-letter {
@@ -57,9 +57,9 @@ a.hover {
 }
 
 .container {
-  background-image: url(img/BPpass.jpg);
+  background-image: url(img/boardingps.jpg);
   background-repeat: no-repeat;
-  background-size: 1400px;
+  background-size: 1405px;
   background-position: center;
 }
 
@@ -68,7 +68,7 @@ a.hover {
 }
 
 #temperature {
-  font-size: 80px;
+  font-size: 85px;
   margin: 5px;
   color: #ff965e;
 }
