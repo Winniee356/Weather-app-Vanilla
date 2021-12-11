@@ -40,7 +40,7 @@ function formatDate(date) {
   let currentMonth = months[date.getMonth()];
   let currentDate = date.getDate();
 
-  let formattedDate = `${currentDay} ${currentHours}:${currentMinutes} </br> ${currentDate} ${currentMonth}`;
+  let formattedDate = `${currentDate} ${currentMonth}<br/>${currentDay} ${currentHours}:${currentMinutes}`;
   return formattedDate;
 }
 
@@ -69,7 +69,7 @@ function displayForecast(response) {
       forecastDay.weather[0].icon
     }@2x.png"
     alt=""
-    width="45"
+    width="50"
     />
      <div class="weather-forecast-temperatures">
     <span class="weather-forecast-temperature-max"> ${Math.round(
@@ -136,7 +136,7 @@ function showCity(event) {
     city.innerHTML = `${input.value}`;
     searchCity(input.value);
   } else {
-    city.innerHTML = null;
+    city.innerHTML = "Unknown";
     alert(`Please search for your next city destination`);
   }
 }

@@ -67,6 +67,11 @@ a.hover {
   float: left;
 }
 
+#intro {
+  font-size: 30px;
+  color: #ff965e;
+}
+
 #temperature {
   font-size: 85px;
   margin: 5px;
@@ -91,11 +96,12 @@ a.hover {
 .celcius-temp:hover,
 .fahrenheit-temp:hover {
   color: #e0a800;
+  cursor: default;
 }
 
 .weather-temperature .active {
   color: #e0a800;
-  font-weight: bolder;
+  font-weight: bold;
   cursor: default;
 }
 
@@ -105,20 +111,21 @@ a.hover {
 
 .weather-forecast {
   font-size: 14px;
-  font-weight: 500px;
+  font-weight: 400px;
   margin: 20px;
   text-align: center;
-  color: #f59f95;
+  color: #f38e82;
+  float: left;
 }
 
 .weather-forecast-date {
   font-size: 14px;
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 11px;
   text-align: center;
 }
 
@@ -127,10 +134,11 @@ a.hover {
 }
 
 .footer {
-  margin: 0 auto;
-  margin-top: 40px;
+  margin: 5 auto;
+  margin-top: 170px;
+  line-height: 30px;
   font-size: 14px;
   font-weight: bolder;
   text-align: center;
-  color: #fdc2bc;
+  color: #5ec7ff;
 }
